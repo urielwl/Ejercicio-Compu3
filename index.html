@@ -3,11 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>TP de Uriel</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css"
   </head>
+
   <body>
-    <header>
-      <h2>Mi Currículum</h2>
-      <h1>Walter Uriel López</h1>
+    <header id="volverarriba">
+      <h1>Mi Currículum</h1>
+      <h2>Walter Uriel López</h2>
       <p>
         Soy un estudiante de la carrera de Diseño y Comunicación Visual en la
         Univerdidad Nacional de Lanús.
@@ -15,10 +17,10 @@
       <nav class="botonera">
         <p>Secciones</p>
         <ul>
-          <li>Trabajos Prácticos</li>
-          <li>Piezas de Diseño</li>
-          <li>Sistemas</li>
-          <li>Pinturas</li>
+          <li><a href="trabajos.html" target="_self">Trabajos</a></li>
+          <li><a href="proyectos.html" target="_self">Proyectos</a></li>
+          <li><a href="sistemas.html" target="_self">Sistemas</a></li>
+          <li><a href="pinturas.html" target="_self">Pinturas</a></li>
         </ul>
       </nav>
     </header>
@@ -40,28 +42,29 @@
           />
         </article>
       </section>
-      <section>
+      <section class="caja">
         <h3>Acerca de mí</h3>
         <p>
           Nací en Capital Federal pero desde siempre he vivido en Lanús Oeste,
           más precisamente en el barrio de Caraza.
         </p>
       </section>
-      <section>
+      <section class="caja">
         <h3>Mis Conocimientos en Programas</h3>
 
         <p>Programas que sé utilizar</p>
-        <ul>
+        <ol>
           <li>Adobe Photoshop</li>
           <li>Adobe Illustrator</li>
           <li>Adobe InDesign</li>
-          <li>Vs Code</li>
+          <li>VS Code</li>
           <li>Figma</li>
-        </ul>
+        </ol>
+        <a href="#volverarriba">Volver Arriba</a>
       </section>
     </main>
     <footer>
-      <p>Walter Uriel López, Diseñador Gráfico - desde 1998</p>
+      <p>Walter Uriel López, Diseñador Gráfico - Buenos Aires, Argentina.</p>
       <img
         src="img/logowul.png"
         alt="Logotipo del Diseñador"
