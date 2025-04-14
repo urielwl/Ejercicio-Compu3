@@ -2,56 +2,65 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>TP de Uriel</title>
-    <link href="estilos.css" rel="stylesheet" type="text/css"> <!-- acá habias olvidado cerrar bien la etiqueta -->
+    <title>Walter Uriel López</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
   </head>
 
   <body>
     <header id="volverarriba">
-      <h1>Mi Currículum</h1>
-      <h2>Walter Uriel López</h2>
-      <p>
-        Soy un estudiante de la carrera de Diseño y Comunicación Visual en la
-        Univerdidad Nacional de Lanús.
-      </p>
+      <h1>Walter Uriel López</h1>
       <nav class="botonera">
         <ul>
-          <li><a href="trabajos.html" target="_self">Trabajos</a></li>
-          <li><a href="proyectos.html" target="_self">Proyectos</a></li>
-          <li><a href="sistemas.html" target="_self">Sistemas</a></li>
+          <li><a href="trabajos.html" target="_self">About</a></li>
+          <li><a href="proyectos.html" target="_self">Portfolio</a></li>
+          <li><a href="sistemas.html" target="_self">Contacto</a></li>
           <li><a href="pinturas.html" target="_self">Pinturas</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section class="caja">
+      <aside> <!--***sobre mi + foto-->
+        <img class="redondeo" src="img/profile.png" alt="profile picture" width="100">
+        <h2 class= "sobremi">Sobre mí</h2>
+        <p class="sobremi">Soy  estudiante en la Licenciatura en Diseño y Comunicación Visual en la UNLa.</p>       
+    </aside>
+      <section class="caja-texto">
         <h3>Acerca de mí</h3>
-        <p>
-          Nací en Capital Federal pero desde siempre he vivido en Lanús Oeste, más precisamente en el barrio de Caraza. Soy estudiante de la carrera de Diseño y Comunicación Visual en la Universidad Nacional de Lanús. Me encuentro en proceso de formación dentro de un campo que me apasiona profundamente, donde puedo explorar tanto la creatividad como los aspectos técnicos del diseño. A lo largo de la carrera, he adquirido conocimientos en áreas como tipografía, diseño editorial, comunicación digital y herramientas visuales, que me permiten desarrollar propuestas gráficas efectivas y con identidad. Estoy comprometido con seguir creciendo profesionalmente y aportar soluciones visuales que comuniquen de manera clara, estética y significativa.
-        </p>
+        <p>Nací en Capital Federal pero desde siempre he vivido en Lanús Oeste, más precisamente en el barrio de Caraza. Soy estudiante de la carrera de Diseño y Comunicación Visual en la Universidad Nacional de Lanús. Me encuentro en proceso de formación dentro de un campo que me apasiona profundamente, donde puedo explorar tanto la creatividad como los aspectos técnicos del diseño. A lo largo de la carrera, he adquirido conocimientos en áreas como tipografía, diseño editorial, comunicación digital y herramientas visuales, que me permiten desarrollar propuestas gráficas efectivas y con identidad. Estoy comprometido con seguir creciendo profesionalmente y aportar soluciones visuales que comuniquen de manera clara, estética y significativa.</p>
+        <h3>Mi forma de trabajo</h3>
+        <p>Además de mi formación académica, me interesa mantenerme actualizado con las tendencias del diseño contemporáneo, explorando constantemente nuevas herramientas y recursos que potencien mi trabajo. Participo en proyectos tanto individuales como grupales, lo que me ha permitido desarrollar habilidades de trabajo en equipo, comunicación y gestión del tiempo. También tengo un fuerte interés por el diseño aplicado a causas sociales y culturales, ya que considero que la comunicación visual tiene un rol fundamental en la transformación y sensibilización de la sociedad. Mi objetivo es seguir creciendo como diseñador, aportando creatividad, responsabilidad y compromiso en cada proyecto que emprenda.</p>
       </section>
-      <section class="caja">
-        <h3>Mis Conocimientos en Programas</h3>
-
-        <p>Programas que sé utilizar</p>
-        <ol>
+      <section class="caja-texto">
+          <h3>Algunos de mis trabajos</h3>
+          <img class="redondeo" src="img/posters01.jpg" alt="Poster de Evento en Skate" width="450" height="300"/>
+          <img class="redondeo" src="img/posters02.jpg" alt="Folleto de Evento en Skate" width="450" height="300"/>
+      </section>
+      <section class="caja-programas">
+        <h3>Software</h3>
+        <ul>
           <li>Adobe Photoshop</li>
           <li>Adobe Illustrator</li>
           <li>Adobe InDesign</li>
           <li>VS Code</li>
           <li>Figma</li>
-        </ol>
-        <a href="#volverarriba">Volver Arriba</a>
+        </ul>
       </section>
     </main>
     <footer>
-      <p>Walter Uriel López, Diseñador Gráfico - Buenos Aires, Argentina.</p>
-      <img
-        src="img/logowul.png"
-        alt="Logotipo del Diseñador"
-        width="100"
-        height="40"
-      />
+      <div class="sociales">
+        <a href="#" title="Ir a Facebook">
+          <img src="img/facebook.svg" width="30" alt="Facebook">
+        </a>
+        <a href="#" title="Ir a Instagram">
+          <img src="img/instagram.svg" width="30" alt="Instagram">
+        </a>
+        <a href="#" title="Ir a YouTube">
+          <img src="img/youtube.svg" width="30" alt="YouTube">
+        </a>
+      </div>
+      <a class="volvera" href="#volverarriba"> <!--***solucion para colocarlo al margen derecho en footer-->
+        <h2>Volver Arriba</h2>
+      </a>
     </footer>
   </body>
 </html>

@@ -1,63 +1,96 @@
-*{
+@charset "utf-8";
+
+* {
     padding: 0px;
 }
 
+body {
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 1200px;
+    height: 250px;
+}
+
 h1 {
-    font-family:"Din-PRO", "sans-serif";
-    color:chocolate;
-    font-size: 30px;
+    font-family:"DinPRO-Bold", "sans-serif";
+    color:rgb(241, 85, 22);
+    font-size: 40px;
+    margin-left: 20px;
 }
 
 h2 {
-    font-family:"Din-PRO", "sans-serif";
-    color:rgb(0, 0, 0);
+    font-family:"DinPRO", "sans-serif";
+    color:beige;
     font-size: 20px;
 }
 
 h3 {
-    font-family:"Din-PRO", "sans-serif";
+    font-family:"DinPRO-Bold", "sans-serif";
     color:rgb(241, 85, 22);
     font-size: 20px;
 }
 
-p {
-    font-family:"Din-PRO", "sans-serif";
-    color:rgb(0, 0, 0);
+h4 {
+    font-family:"DinPRO", "sans-serif";
+    color:beige;
     font-size: 14px;
     font-weight:initial;
 }
 
 @font-face {
-    font-family: "Din-PRO";
+    font-family: "DinPRO";
     src: url(fonts/DINPro.otf), format(opentype);
     font-weight: normal;
     font-style: normal;
 }
 
-.botonera {
+@font-face {
+    font-family: "DinPRO-Bold";
+    src: url(fonts/DINPro-Bold.otf), format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+    font-family:"DinPRO", "sans-serif";
+    color:rgb(52, 42, 42);
+    font-size: 14px;
+    font-weight:initial;
+    text-align:justify;
+}
+
+nav {
+    background-color: rgb(233, 120, 64);
     width: 1200px;
     height: 80px;
-    background-color: rgb(231, 126, 55);
+    border-radius: 20px;
+    display: flex;
 }
 
 nav ul {
     list-style: none;
-}
-
-nav ul li {
-    display: inline;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .botonera a {
     text-decoration: none;
-    color: black;
+    color: rgb(52, 42, 42);
     padding: 10px 20px;
-    border: 1px solid black;
+    border: 1px solid rgb(52, 42, 42);
+    border-radius: 30px;
 }
 
 .botonera a:hover {
     color: #fff;
-    background-color: #000;
+    background-color: rgb(52, 42, 42);
 }
 
 .botonera a:active {
@@ -65,28 +98,40 @@ nav ul li {
     color: #fff;
 }
 
-.caja {
-    width: 800px;
-    height: 230px;
+.caja-texto {
+    width: 1000px;
+    background-color:beige;
+    padding-left: 20px;
+    margin: 0px;
+    border-color:rgb(52, 42, 42);
+    box-sizing:border-box;
+}
+
+.caja-programas {
+    width: 500px;
     background-color:beige;
     padding: 20px;
-    margin: 10px;
-    border-width: 1px;
-    border-style:solid;
-    border-color:brown;
-    box-sizing: border-box;
+    margin: 0px;
+    border-color:rgb(52, 42, 42);
+    box-sizing:border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.redondeo {
+    border-radius: 20px;
 }
 
 ul {
-    list-style-type:square;
-    padding-left: 0px;
-    font-family: "Din-PRO";
+    list-style-type:none;
+    padding-left: 10px;
+    font-family: "DinPRO";
 }
 
 ol {
     list-style:circle;
     padding-left: 0px;
-    font-family: "Din-PRO";
+    font-family: "DinPRO";
 }
 
 a {
@@ -107,4 +152,50 @@ a:active {
 
 a:hover {
     color:crimson;
+}
+
+aside{
+    background-color: rgb(12, 165, 122);
+    padding: 3%;
+    border-radius: 20px;
+    width:40%;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    width: 1200px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+section {
+    width: 880px;
+    margin-right: 20px;
+}
+
+.sociales {
+    padding-left: 20px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer {
+    background-color:rgb(52, 42, 42);
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    border-radius:20px;
+}
+
+.sobremi {
+    color: beige;
+}
+
+.volvera {
+    text-align: right;
+    align-items: center;
 }
