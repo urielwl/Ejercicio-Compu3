@@ -4,26 +4,30 @@
     <meta charset="utf-8" />
     <title>Walter Uriel López</title>
     <link href="estilos.css" rel="stylesheet" type="text/css">
+      <link href="img/favicon.svg" rel="icon"/>
   </head>
 
   <body>
-    <header id="volverarriba">
-      <h1>Walter Uriel López</h1>
+    <header>
+      <div class="principal">
+        <img src="img/logowl.svg" height=80px "Logo de la página" class="logowl">
+          <h1>Walter Uriel López</h1>
+      </div>
       <nav class="botonera">
         <ul>
-          <li><a href="trabajos.html" target="_self">About</a></li>
-          <li><a href="proyectos.html" target="_self">Portfolio</a></li>
-          <li><a href="sistemas.html" target="_self">Contacto</a></li>
-          <li><a href="pinturas.html" target="_self">Pinturas</a></li>
+          <li><a href="#" target="_self">About</a></li>
+          <li><a href="#" target="_self">Portfolio</a></li>
+          <li><a href="#" target="_self">Contacto</a></li>
+          <li><a href="#" target="_self">Experiencia</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <aside> <!--***sobre mi + foto-->
-        <img class="redondeo" src="img/profile.png" alt="profile picture" width="100">
+      <section class="caja-foto"> <!--***sobre mi + foto-->
+        <img class="redondeo" src="img/profile.jpg" alt="profile picture" width="180">
         <h2 class= "sobremi">Sobre mí</h2>
-        <p class="sobremi">Soy  estudiante en la Licenciatura en Diseño y Comunicación Visual en la UNLa.</p>       
-    </aside>
+        <p class="sobremi">Soy  estudiante en la Licenciatura en Diseño y Comunicación Visual en la Universidad Nacional de Lanús.</p>       
+      </section>
       <section class="caja-texto">
         <h3>Acerca de mí</h3>
         <p>Nací en Capital Federal pero desde siempre he vivido en Lanús Oeste, más precisamente en el barrio de Caraza. Soy estudiante de la carrera de Diseño y Comunicación Visual en la Universidad Nacional de Lanús. Me encuentro en proceso de formación dentro de un campo que me apasiona profundamente, donde puedo explorar tanto la creatividad como los aspectos técnicos del diseño. A lo largo de la carrera, he adquirido conocimientos en áreas como tipografía, diseño editorial, comunicación digital y herramientas visuales, que me permiten desarrollar propuestas gráficas efectivas y con identidad. Estoy comprometido con seguir creciendo profesionalmente y aportar soluciones visuales que comuniquen de manera clara, estética y significativa.</p>
@@ -32,35 +36,51 @@
       </section>
       <section class="caja-texto">
           <h3>Algunos de mis trabajos</h3>
-          <img class="redondeo" src="img/posters01.jpg" alt="Poster de Evento en Skate" width="450" height="300"/>
-          <img class="redondeo" src="img/posters02.jpg" alt="Folleto de Evento en Skate" width="450" height="300"/>
+          <div class="trabajos">
+          <img class="redondeo" src="img/posters01.jpg" alt="Poster de Evento en Skate" width="450"/>
+          <img class="redondeo" src="img/posters02.jpg" alt="Skates personalizados" width="450"/>
+          <img class="redondeo" src="img/posters03.jpg" alt="Folleto de Evento en Skate" width="450"/>
+          </div>
       </section>
       <section class="caja-programas">
         <h3>Software</h3>
         <ul>
-          <li>Adobe Photoshop</li>
-          <li>Adobe Illustrator</li>
-          <li>Adobe InDesign</li>
-          <li>VS Code</li>
-          <li>Figma</li>
+          <li>
+              <img src="img/illustrator.svg" width="35px" alt="Adobe Illustrator" title="Illustrator">
+          </li>
+          <li>
+              <img src="img/photoshop.svg" width="35px" alt="Adobe Photoshop" title="Photoshop">
+          </li>
+          <li>
+              <img src="img/indesign.svg" width="35px" alt="Adobe InDesign" title="InDesign">
+          </li>
+          <li>
+              <img src="img/acrobat.svg" width="35px" alt="Adobe Acrobat" title="Acrobat">
+          </li>
+          <li>
+              <img src="img/visual-basic.svg" width="35px" alt="VS Code" title="Visual Code">
+          </li>
+          <li>
+            <img src="img/github.svg" width="35px" alt="GitHub" title="GitHub">
+        </li>
         </ul>
       </section>
     </main>
     <footer>
       <div class="sociales">
-        <a href="#" title="Ir a Facebook">
+        <a href="https://www.facebook.com/urielwl" title="Ir a Facebook">
           <img src="img/facebook.svg" width="30" alt="Facebook">
         </a>
-        <a href="#" title="Ir a Instagram">
+        <a href="https://www.instagram.com/urielwl/" title="Ir a Instagram">
           <img src="img/instagram.svg" width="30" alt="Instagram">
         </a>
-        <a href="#" title="Ir a YouTube">
+        <a href="https://www.youtube.com/@Bisonte__" title="Ir a YouTube">
           <img src="img/youtube.svg" width="30" alt="YouTube">
         </a>
       </div>
-      <a class="volvera" href="#volverarriba"> <!--***solucion para colocarlo al margen derecho en footer-->
-        <h2>Volver Arriba</h2>
-      </a>
+      <div class="legal">
+        TP1 / Cátedra Wischñevsky / 2025
+      </div>
     </footer>
   </body>
 </html>
