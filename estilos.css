@@ -49,27 +49,6 @@ h4 {
     font-weight:initial;
 }
 
-@font-face {
-    font-family: "DinPRO";
-    src: url(fonts/DINPro.otf), format(opentype);
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "DinPRO-Bold";
-    src: url(fonts/DINPro-Bold.otf), format(opentype);
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: "DinPRO-Italic";
-    src: url(fonts/DINPro-Italic.otf), format(opentype);
-    font-weight: normal;
-    font-style: normal;
-}
-
 p {
     font-family:"DinPRO", "sans-serif";
     color:#342a2a;
