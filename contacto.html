@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Walter U. López | Portfolio</title>
+  <link href="estilos.css" rel="stylesheet" type="text/css">
+  <link href="img/favicon.svg" rel="icon" />
+</head>
+
+<body>
+  <header>
+    <div class="principal">
+      <a href="index.html" title="Home">
+      <img src="img/logowl.svg" height=80px alt="Logo de la página" class="logowl">
+    </a>
+      <h1>Walter Uriel López / DG</h1>
+    </div>
+    <nav class="botonera">
+      <ul>
+        <li><a href="index.html" target="_self">Sobre mi</a></li>
+        <li><a href="portfolio.html" target="_self">Portfolio</a></li>
+        <li><a href="identidades.html" target="_self">Identidades</a></li>
+        <li><a href="contacto.html" target="_self">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+              <section class="formulario">
+                <h1>Contactá conmigo</h1>
+                <form method="post" action="" target="_blank" enctype="multipart/form-data">
+                    <div class="datos-persona">
+                        <div class="nombre">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" name="nombre" id="nombre" maxlength="30" placeholder="Jack Jackson" required>
+                        </div>
+                        <div class="mail">
+                            <label for="mail">Correo eléctronico</label>
+                            <input type="email" name="mail" id="email" placeholder="jackjackson@gmail.com" required>
+                        </div>
+                    </div>
+                    <div class="mensaje">
+                        <label for="mensaje">Tu mensaje</label>
+                        <textarea name="mensaje" id="mensaje" maxlength="700" required></textarea>
+                    </div>
+                    <div class="botones">
+                        <div>
+                            <label for="archivos">Adjuntame lo que necesites</label>
+                            <input type="file" name="archivos" id="archivos" formenctype="multipart/form-data" class="archivos">
+                        </div>
+                        <input type="submit" class="boton-enviar" value="Enviar">
+                    </div>
+                </form>
+            </section>
+    <section class="audio">
+                <h3>¡Gracias por pasarte!</h3>
+                <audio controls autoplay>
+                    <source src="audio/2516.mp3" type="audio/mpeg">
+                </audio>
+                <p>2516 · Luna Li · Hannah Kim</p>
+            </section>
+  </main>
+  <footer>
+    <div class="sociales">
+      <a href="https://www.facebook.com/urielwl" title="Ir a Facebook">
+        <img src="img/facebook.svg" width="30" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com/urielwl/" title="Ir a Instagram">
+        <img src="img/instagram.svg" width="30" alt="Instagram">
+      </a>
+      <a href="https://www.youtube.com/@Bisonte__" title="Ir a YouTube">
+        <img src="img/youtube.svg" width="30" alt="YouTube">
+      </a>
+    </div>
+    <div class="legal">
+      TP3 / Cátedra Wischñevsky / 2025
+    </div>
+  </footer>
+</body>
+
+</html>

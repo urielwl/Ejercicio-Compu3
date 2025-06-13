@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
+<svg id="Capa_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 30 30">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
   <defs>
     <style>
-      .cls-1 {
+      .st0 {
         fill: beige;
       }
     </style>
   </defs>
-  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
-  <g>
-    <g id="Capa_1">
-      <path class="cls-1" d="M512,257.6c0,127.8-93.7,233.7-216.1,252.9v-178.4h59.5l11.3-73.8h-70.8v-47.9c0-20.2,9.9-39.9,41.6-39.9h32.2v-62.8s-29.2-5-57.2-5c-58.3,0-96.4,35.3-96.4,99.3v56.3h-64.8v73.8h64.8v178.4C93.8,491.2,0,385.3,0,257.6S114.6,1.6,256,1.6s256,114.6,256,256Z"/>
-    </g>
+  <g id="Capa_11" data-name="Capa_1">
+    <path class="st0" d="M30,15.09c0,7.49-5.49,13.69-12.66,14.82v-10.45h3.49l.66-4.32h-4.15v-2.81c0-1.18.58-2.34,2.44-2.34h1.89v-3.68s-1.71-.29-3.35-.29c-3.42,0-5.65,2.07-5.65,5.82v3.3h-3.8v4.32h3.8v10.45C5.5,28.78,0,22.57,0,15.09S6.71.09,15,.09s15,6.71,15,15Z"/>
   </g>
 </svg>
